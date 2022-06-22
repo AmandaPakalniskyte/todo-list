@@ -26,12 +26,12 @@ const addTodoItem = ({
 
   const btnDelete = document.createElement('button'); // <button></button>
   btnDelete.className = '.btn-delete btn btn-primary py-0 ms-2'; 
-  btnDelete.innerHTML = '<img class="button-img" src="delete-button.png"/>';
+  btnDelete.innerHTML = '<img class="button-img" src="assets/delete-button.png"/>';
   btnDelete.addEventListener('click', () => console.log('Paspausta delete'));
 
   const btnEdit = document.createElement('button'); // <button></button>
   btnEdit.className = '.btn-edit btn btn-primary ms-2';
-  btnEdit.innerHTML = '<img class ="button-image" src="edit-pen.png"/>';
+  btnEdit.innerHTML = '<img class ="button-image" src="assets/edit-pen.png"/>';
   btnEdit.addEventListener('click', () => console.log('Paspausta edit'));
               
   todoItemField.append(  
