@@ -1,0 +1,19 @@
+{"todos":[
+  {"id":1,
+   "title": "travel",
+   "completed":false
+
+  },
+  {
+  "id":2,
+  "title": "build a house",
+  "completed":true
+ },
+ {
+ "id":2,
+  "title": "have a farm",
+  "completed":true
+ }
+
+]
+}

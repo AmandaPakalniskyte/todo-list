@@ -60,6 +60,7 @@ const formAddTodo = new FormComponent(
 );
 
 // Siunčiame užklausą į nuotolinį serverį
+// fetch('https://localhost:1337/todos')
 fetch('https://jsonplaceholder.typicode.com/todos?userId=7')
   // Užklausos atsakymo JSON duomenis verčiame JavaScript masyvu
   .then((response) => response.json())
